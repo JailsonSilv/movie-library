@@ -20,8 +20,8 @@ const Search = () => {
     const res  = await fetch(url)
     const data = await res.json()
 
-    if(data.results != undefined)
-      setMovies(data.results)
+    
+    setMovies(data.results)
   };
 
   useEffect(() => {
