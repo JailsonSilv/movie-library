@@ -1,0 +1,31 @@
+* {
+    font-family:  Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.381) ;
+    transition: 0.5s;
+}
+
+span {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.381) ;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: red;
+}
+
+a span:hover {
+    color: white;
+}
